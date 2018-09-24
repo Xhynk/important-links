@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,300i,400,400i,500,500i,700,700i,900,900i");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(45deg, #F4EBE5, #E3D4CA);
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  padding: 64px 0;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #666;
+}
+
+.container {
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  width: 90%;
+  width: calc( 100% - 100px );
+  max-width: 1366px;
+  margin: 0 auto;
+  box-shadow: 0 7.5px 20px -10px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+.container .menu {
+  margin-right: -4px;
+  vertical-align: top;
+  width: 230px;
+  display: inline-block;
+  z-index: 100;
+}
+.container .menu.increase a {
+  font-size: 18px;
+}
+.container .menu.increase svg {
+	width: 16px;
+    vertical-align: sub;
+}
+.container .menu.increase a.active {
+  background: #B0D2D1;
+  color: #fff;
+}
+.container .menu.increase a.active:after {
+  right: -42px;
+  border: 21px solid transparent;
+  border-left: 21px solid #B0D2D1;
+}
+.container .menu a {
+  outline: none;
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 12px 18px;
+  display: block;
+  position: relative;
+  letter-spacing: .5px;
+}
+.container .menu a.active {
+  background: #B0D2D1;
+  color: #fff;
+}
+.container .menu a.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -38px;
+  border: 19px solid transparent;
+  border-left: 19px solid #B0D2D1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container .menu a:first-child {
+  border-top: 12px solid #fff;
+}
+.container .menu a:last-child {
+  border-bottom: 12px solid #fff;
+}
+.container .menu a.grow, .container .menu a.collapse {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.container .menu a .svg-inline--fa {
+  width: 24px;
+}
+.container main {
+  border-left: 1px solid #eee;
+  display: inline-block;
+  width: calc( 100% - 230px );
+  z-index: 0;
+}
+.container main div {
+  display: none;
+  z-index: 0;
+}
+.container main div.active {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.container main div iframe {
+  width: 100%;
+  border: none;
+  height: 100%;
+  min-height: 80vh;
+  margin-bottom: -4px;
+}
+.container main .lower-menu {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+.container main .lower-menu a {
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  padding: 12px 24px;
+  display: inline-block;
+}
