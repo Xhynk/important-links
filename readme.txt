@@ -1,4 +1,4 @@
-=== Content Mask ===
+=== Important Links ===
 Contributors: alexdemchak
 Donate Link: https://www.paypal.me/xhynk/
 Tags: Links, Link Management, Account Management
