@@ -3,7 +3,7 @@
 /**
 	* Plugin Name:	Important Links
 	* Description:	Easily keep track of important URLs inside your WordPress Dashboard
-	* Version:		1.1.0
+	* Version:		1.1.0.1
 	* Author:		Alex Demchak
 	* Author URI:	http://xhynk.com/
 

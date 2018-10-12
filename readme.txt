@@ -4,7 +4,7 @@ Donate Link: https://www.paypal.me/xhynk/
 Tags: Links, Link Management, Account Management
 Requires at Least: 4.1
 Tested Up To: 4.9.8
-Stable tag: 1.1.0
+Stable tag: 1.1.0.1
 Requires PHP: 5.6
 Author URI: https://xhynk.com/
 License: GPLv2 or later
